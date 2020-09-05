@@ -9,7 +9,7 @@ export function loginUrl() {
 
   const endpoint = 'https://accounts.spotify.com/authorize';
   const clientId =  '09f276ee3a464f4b9eb53304648f6426';
-  const redirectUri = 'http://localhost:3000/search';
+  const redirectUri = 'https://spotfinder.vercel.app/search';
   const scope = [
     'user-read-private',
     'user-read-email'
